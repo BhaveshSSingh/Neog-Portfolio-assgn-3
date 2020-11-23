@@ -63,7 +63,13 @@ body {
 .ow {
   background-color: var(--off-white);
 }
-
+.skills-icon {
+  align-items: center;
+  width: max-content;
+  margin-bottom: 2rem;
+  font-size: 2.7rem;
+  /* color: (var(--primary-color)); */
+}
 /* footer */
 
 footer {
