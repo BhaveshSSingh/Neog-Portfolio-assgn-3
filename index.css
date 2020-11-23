@@ -13,6 +13,7 @@ body {
 
 .nav {
   background-color: var(--off-white);
+  /* padding: 1rem 1rem; */
   padding: 1rem 1rem 0rem 1rem;
   color: white;
   border-bottom-left-radius: 1rem;
@@ -33,8 +34,7 @@ body {
 }
 /* header */
 .hero {
-  padding: 2rem;
-  padding: 5rem;
+  padding: 1rem;
 }
 
 .hero .hero-img {
@@ -51,24 +51,27 @@ body {
 .hero .hero-heading .highlight {
   color: var(--primary-color);
 }
+
+.highlight {
+  color: var(--primary-color);
+}
+
 /* section */
 .section {
   padding: 2rem;
 }
 .section h1 {
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .ow {
   background-color: var(--off-white);
 }
 .skills-icon {
-  align-items: center;
-  width: max-content;
-  margin-bottom: 2rem;
-  font-size: 2.7rem;
-  /* color: (var(--primary-color)); */
+  display: inline;
+  padding: 0rem 0.5rem;
+  font-size: 1.5rem;
 }
 /* footer */
 
@@ -89,6 +92,14 @@ footer {
 
 .footer ul {
   padding-inline-start: 0px;
+}
+.footer__icon {
+  font-size: 1.5rem;
+  color: var(--light-color);
+  margin: 0 1rem;
+}
+.footer__icon:hover {
+  color: var(--dark-gray);
 }
 /* links */
 .link {

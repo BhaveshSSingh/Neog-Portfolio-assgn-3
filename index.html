@@ -8,11 +8,12 @@
     href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
     rel="stylesheet"
   />
+  <link rel="icon" href="img/ava.svg">
     <link href="index.css" rel="stylesheet" />
   </head>
   <body>
     <!-- navbar -->
-    <nav class="nav container">
+    <nav class="nav">
       <div class="nav-brand">I'am Bhavesh</div>
       <ul class="list-styling nav-pills">
         <li class="list-item-inline">
@@ -37,8 +38,11 @@
     <section class="section ow">
       <div class="container container-center">
         <h1>About me</h1>
+        <div class="hero">
+        <img class="hero-img" src="img/cli.svg" alt="" />
+      </div>
         <p>
-          Hello there! I am Bhavesh a Begginer JS and React Developer I like making cool WebApps and Websites and spending a lot of time making them look pretty.
+          Hello there! I am Bhavesh a Beginner<span class="highlight">JS and React Developer </span>I like making cool WebApps and Websites and spending a lot of time making them look pretty.
 
           These are the Technologies that i work with
         </p>
@@ -49,14 +53,17 @@
       <div class="container container-center">
         <h1>Technologies</h1>
         <p>
-          These are the Technologies that i work with
+       The Technologies that i work with are 
+       <li class='list-item-inline'>HTML5<a class="skills-icon"><i class='bx bxl-html5' style='color:#ff5733'  ></i></a></li>
+       <li class='list-item-inline'>CSS3 <a class="skills-icon" ><i class='bx bxl-css3' style='color:#0000ff'  ></i></a></li>
+
+       <li class='list-item-inline'>JAVASCRIPT<a class="skills-icon"><i class='bx bxl-javascript' style='color:#f0db4f'  ></i></a></li>
+       <li class='list-item-inline'>REACT<a class="skills-icon"><i class='bx bxl-react' style='color:#61dbfb'  ></i></a></li>
+        <li class='list-item-inline'>GIT<a class="skills-icon"><i class='bx bxl-git' style='color:#f34f29'  ></i></a></li>
+       <li class='list-item-inline'>GITHUB<a class="skills-icon"><i class='bx bxl-github' style='color:#333333'  ></i> </a></li>
+       <li class='list-item-inline'>BOOTSTRAP<a class="skills-icon" ><i class='bx bxl-bootstrap' style='color:#602c50'  ></i></a></li>
+       
         </p>
-        <p><a class="skills-icon"><i class='bx bxl-html5' style='color:#ff5733'  ></i></a>
-          <a class="skills-icon" ><i class='bx bxl-css3' style='color:#0000ff'  ></i></a>
-         <a class="skills-icon"><i class='bx bxl-javascript' style='color:#f0db4f'  ></i></a> 
-          <a class="skills-icon"><i class='bx bxl-react' style='color:#61dbfb'  ></i></a>
-          <a class="skills-icon"><i class='bx bxl-git' style='color:#f34f29'  ></i></a>
-         <a class="skills-icon"><i class='bx bxl-github' style='color:#333333'  ></i> </a> </p>
       </div>
     </section>
     <!-- Projects -->
@@ -83,18 +90,13 @@
     </section>
     <!-- footer -->
     <footer class="footer">
-      <div class="footer-header">some small heading inside footer</div>
-      <ul class="social-links list-s">
-        <li class="list-item-inline">
-          <a class="link" href="/">socialOne </a>
-        </li>
-        <li class="list-item-inline">
-          <a class="link" href="/">socialTwo </a>
-        </li>
-        <li class="list-item-inline">
-          <a class="link" href="/">socialThree </a>
-        </li>
-      </ul>
+      <div class="footer-header">Connect with me here!</div>
+      <div class="footer-ul">
+      <a href="https://www.linkedin.com/in/bhavesh-singh-1641001b1/" class="footer__icon"><i class='bx bxl-linkedin'   ></i></a>
+      <a href="https://github.com/BhaveshSSingh" class="footer__icon"><i class='bx bxl-github'  ></i></a>
+      <a href="https://twitter.com/bhaveshh_singh" class="footer__icon"><i class='bx bxl-twitter'   ></i></a>
+      <a href="https://bhaveshsingh.hashnode.dev/" class="footer__icon"><i class='bx bxl-dev-to'  ></i></a>
+    </div>
     </footer>
   </body>
 </html>
