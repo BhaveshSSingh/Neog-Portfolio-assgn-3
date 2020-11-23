@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
 :root {
   --primary-color: #8b5cf6;
   --off-white: #e5e7eb;
@@ -13,11 +14,15 @@ body {
 
 .nav {
   background-color: var(--off-white);
-  /* padding: 1rem 1rem; */
-  padding: 1rem 1rem 0rem 1rem;
+  padding: 1rem 1rem;
   color: white;
   border-bottom-left-radius: 1rem;
   box-sizing: border-box;
+}
+.nav .link {
+  display: inline;
+  margin: none;
+  position: -webkit-sticky;
 }
 .nav .nav-brand {
   color: var(--primary-color);
@@ -25,6 +30,9 @@ body {
 }
 .nav .nav-pills {
   text-align: right;
+}
+.list-unordered {
+  list-style-type: none;
 }
 .nav .link {
   color: var(--primary-color);
@@ -73,6 +81,10 @@ body {
   padding: 0rem 0.5rem;
   font-size: 1.5rem;
 }
+/* blogs */
+.blog a {
+  margin-left: 10rem;
+}
 /* footer */
 
 footer {
@@ -105,19 +117,16 @@ footer {
 .link {
   text-decoration: none;
   padding: 0.5rem 1rem;
-
-  text-align: -webkit-match-parent;
 }
 .link-primary {
   background-color: var(--primary-color);
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   color: white;
-  /* color: black; */
 }
 .link-secondary {
   color: var(--primary-color);
-  border-radius: 0.5rem;
-  border: 1px solid var(--primary-color);
+  border-radius: 1rem;
+  border: 1px solid var(--dark-gray);
 }
 
 /* list */
@@ -130,6 +139,7 @@ footer {
   display: inline;
   padding: 0rem 0.5rem;
 }
+
 /* Container */
 .container {
   /* padding-left: 1rem;
@@ -140,4 +150,17 @@ footer {
 .container-center {
   max-width: 600px;
   margin: auto;
+}
+/* blogs */
+.blog-img {
+  max-width: 550px;
+  display: block;
+  margin: auto;
+  border-radius: 1rem;
+  border: 1px solid var(--dark-gray);
+}
+blockquote {
+  border-left: 8px solid var(--primary-color);
+  padding-left: 1rem;
+  font-size: 1.3rem;
 }
