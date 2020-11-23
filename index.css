@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 :root {
-  --primary-color: #fcd34d;
+  --primary-color: #8b5cf6;
   --off-white: #e5e7eb;
   --dark-gray: #1f2937;
 }
@@ -12,19 +12,21 @@ body {
 /* nav */
 
 .nav {
-  background-color: var(--primary-color);
-  padding: 1rem;
+  background-color: var(--off-white);
+  padding: 1rem 1rem 0rem 1rem;
   color: white;
   border-bottom-left-radius: 1rem;
+  box-sizing: border-box;
 }
 .nav .nav-brand {
+  color: var(--primary-color);
   font-weight: bold;
 }
 .nav .nav-pills {
   text-align: right;
 }
 .nav .link {
-  color: white;
+  color: var(--primary-color);
 }
 .nav .link-active {
   font-weight: bold;
@@ -86,6 +88,8 @@ footer {
 .link {
   text-decoration: none;
   padding: 0.5rem 1rem;
+
+  text-align: -webkit-match-parent;
 }
 .link-primary {
   background-color: var(--primary-color);
