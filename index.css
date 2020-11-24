@@ -24,6 +24,7 @@ body {
   margin: none;
   position: -webkit-sticky;
 }
+
 .nav .nav-brand {
   color: var(--primary-color);
   font-weight: bold;
@@ -46,9 +47,10 @@ body {
 }
 
 .hero .hero-img {
+  margin: auto;
+  width: 100%;
   max-width: 350px;
   display: block;
-  margin: auto;
 }
 
 .hero .hero-heading {
@@ -152,15 +154,13 @@ footer {
   margin: auto;
 }
 /* blogs */
-.blog-img {
-  max-width: 550px;
-  display: block;
-  margin: auto;
-  border-radius: 1rem;
-  border: 1px solid var(--dark-gray);
-}
+
 blockquote {
-  border-left: 8px solid var(--primary-color);
+  border-left: 5px solid var(--primary-color);
   padding-left: 1rem;
   font-size: 1.3rem;
+}
+.blog-container {
+  max-width: 900px;
+  margin: auto;
 }
